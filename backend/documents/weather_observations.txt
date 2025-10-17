@@ -1,0 +1,74 @@
+San Jose, CA Date/Time
+ 
+(L)	Temp.
+ 
+(°F)	Dew
+Point
+(°F)	Relative
+Humidity
+(%)	Wind
+Chill
+(°F)	Wind
+Direction
+ 	Wind
+Speed
+(mph)	Visibility
+ 
+(miles)	Weather
+ 
+ 	Clouds
+ 
+(x100 ft)	Sea Level
+Pressure
+(mb)	Station
+Pressure
+(in Hg)	Altimeter
+Setting
+(in Hg)	1 Hour
+Precip
+(in)	3 Hour
+Precip
+(in)	6 Hour
+Precip
+(in)	24 Hour
+Precip
+(in)	6 Hr
+Max
+(°F)	6 Hr
+Min
+(°F)	24 Hr
+Max
+(°F)	24 Hr
+Min
+(°F)
+Oct 16, 12:20 am	55	52	88	 	NW	6	10.00	 	FEW017	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 16, 12:15 am	55	52	88	 	NW	6	10.00	 	SCT017	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 16, 12:10 am	55	52	88	 	NW	7	10.00	 	SCT017	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 16, 12:05 am	55	52	88	 	NW	7	10.00	 	SCT017	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 16, 12:00 am	55	52	88	 	WNW	7	10.00	 	FEW025	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:55 pm	57	52	82	 	WNW	8	10.00	 	SCT018	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:53 pm	57	52	83	 	WNW	7	10.00	 	FEW025	1019.50	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:50 pm	55	52	88	 	WNW	8	10.00	 	FEW025	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:45 pm	55	52	88	 	WNW	8	10.00	 	FEW020	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:40 pm	55	52	88	 	WNW	7	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:35 pm	55	52	88	 	W	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:30 pm	55	52	88	 	W	7	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:25 pm	57	52	82	 	W	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:20 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:15 pm	55	52	88	 	W	7	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:10 pm	55	52	88	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:05 pm	57	52	82	 	WNW	7	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 11:00 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:55 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:53 pm	57	51	81	 	WNW	8	10.00	 	FEW040	1019.50	30.05	30.11	 	 	 	 	63	57	 	 
+Oct 15, 10:50 pm	57	52	82	 	WNW	7	10.00	 	FEW040	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:45 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:40 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:35 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:30 pm	57	52	82	 	WNW	7	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:25 pm	57	52	82	 	WNW	6	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:20 pm	57	52	82	 	WNW	5	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:15 pm	57	52	82	 	W	3	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:10 pm	57	52	82	 	WNW	8	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:05 pm	57	52	82	 	W	5	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	 
+Oct 15, 10:00 pm	57	52	82	 	W	5	10.00	 	CLR	 	30.05	30.11	 	 	 	 	 	 	 	

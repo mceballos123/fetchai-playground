@@ -1,0 +1,71 @@
+San Jose,CA Waning Crescent
+Thu 16
+Partly Cloudy
+70°
+/51°
+8%
+Fri 17
+Sunny
+77°
+/54°
+7%
+Sat 18
+Sunny
+82°
+/57°
+3%
+Sun 19
+Sunny
+77°
+/55°
+2%
+Mon 20
+Sunny
+79°
+/57°
+5%
+Tue 21
+Sunny
+79°
+/56°
+3%
+Wed 22
+Sunny
+78°
+/55°
+3%
+Thu 23
+Partly Cloudy
+77°
+/55°
+4%
+Fri 24
+Partly Cloudy
+73°
+/56°
+8%
+Sat 25
+PM Showers
+72°
+/55°
+32%
+Sun 26
+AM Showers
+68°
+/53°
+51%
+Mon 27
+Mostly Sunny
+66°
+/53°
+24%
+Tue 28
+Sunny
+69°
+/54°
+4%
+Wed 29
+Mostly Sunny
+70°
+/53°
+5%,
