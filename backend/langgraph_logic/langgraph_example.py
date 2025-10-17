@@ -6,6 +6,7 @@ from backend.rag.rag_system import WeatherRAGSystem
 
 
 
+# AgentState keeps track of the state of the workflow for the graph
 class AgentState(TypedDict):
     messages:Annotated["list", add_messages]
 
@@ -14,6 +15,7 @@ class AgentState(TypedDict):
     context:str # gets the context from the RAG SYSTEM
 
 
+# WeatherWorkFlow is the main class that initializes the workflow and adds the nodes and edges
 class WeatherWorkFlow:
 
     def __init__(self):
