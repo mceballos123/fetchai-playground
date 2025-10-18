@@ -21,14 +21,16 @@ class WeatherWorkFlow:
     def __init__(self):
         print("Initializing Weather Workflow...")
 
-        self.rag_system = WeatherRAGSystem()
+        self.rag_system = WeatherRAGSystem() #intilaizes the RAG SYSTEM
 
-        self.workflow = StateGraph(AgentState) # keeps track of the state of the workflow for the graph
-
+        self.workflow = StateGraph(AgentState) # Keeps track of the state of the workflow for the graph
+    # State keeps track of the state of the workflow for the graph, State keeps the previous and current state of the workflow
         self.workflow.add_node("extract_question", self.extract_question)
         self.workflow.add_node("search_documents", self.search_documents)
         self.workflow.add_node("generate_answer", self.generate_answer)
+
         
+
         # Define the flow
         self.workflow.add_edge(START, "extract_question")
         self.workflow.add_edge("extract_question", "search_documents")
@@ -39,6 +41,7 @@ class WeatherWorkFlow:
         self.app = self.workflow.compile()
         print("✅ Workflow Ready!")
 
+    # 
     
     def extract_question(self, state: AgentState) -> AgentState:
         """Extract the question from messages"""
