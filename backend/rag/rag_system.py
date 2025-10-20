@@ -1,17 +1,18 @@
 import os
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+from llama_index.core import VectorStoreIndex, Settings, Document
 from llama_index.llms.ollama import Ollama
 from llama_index.embeddings.ollama import OllamaEmbedding
-
+from dotenv import load_dotenv
+load_dotenv()
 
 class WeatherRAGSystem:
     def __init__(
-        self, documents_path="/Users/mceballos456/fetchai-playground/backend/documents"
+        self, documents_path=os.getenv("DOCUMENTS_PATH")
     ):
         print(f"Initializing Weather RAG System with documents at {documents_path}")
 
         self.llm = Ollama(model="llama3.2:1b", request_timeout=120)
-        print(f"LLM:{self.llm}")
+        
         # represents your documents in a vector space using a number, takes text as input
         # conver text to words and if a word is similar to another, it will be reprensed
         # converts question into numbers
@@ -26,8 +27,20 @@ class WeatherRAGSystem:
 
         # printing the documents path
         print(f"Loading documents from {documents_path}")
-        # loads the documents from the documents folder
-        documents = SimpleDirectoryReader(documents_path).load_data()
+        # Manually load only .txt files to avoid pandas/numpy imports
+        documents = []
+        for root, _dirs, files in os.walk(documents_path):
+            for fname in files:
+                if not fname.lower().endswith(".txt"):
+                    continue
+                fpath = os.path.join(root, fname)
+                try:
+                    with open(fpath, "r", encoding="utf-8") as f:
+                        text = f.read()
+                    if text.strip():
+                        documents.append(Document(text=text, metadata={"path": fpath}))
+                except Exception as e:
+                    print(f"Skipping {fpath}: {e}")
 
         # create vector index and stores in memory
         self.index = VectorStoreIndex.from_documents(documents)
